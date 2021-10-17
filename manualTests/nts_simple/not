@@ -1,0 +1,14 @@
+#!/bin/bash
+
+clear
+
+echo "##########################"
+echo "          N & U           "
+echo "##########################" 
+./nanotekspice 4069_not.nts < notin.txt
+echo ""
+
+echo "##########################"
+echo "            S             "
+echo "##########################" 
+./nanotekspice 4069_notS.nts < notinS.txt

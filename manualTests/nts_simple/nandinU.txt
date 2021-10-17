@@ -1,0 +1,6 @@
+display
+in_01=0
+in_05=1
+simulate
+display
+exit

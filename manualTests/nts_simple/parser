@@ -1,0 +1,14 @@
+#!/bin/bash
+
+clear
+
+./nanotekspice 4001_nor.nts
+./nanotekspice 4011_nand.nts
+./nanotekspice 4030_xor.nts
+./nanotekspice 4069_not.nts
+./nanotekspice 4071_or.nts
+./nanotekspice 4081_and.nts
+./nanotekspice clock.nts
+./nanotekspice false.nts
+./nanotekspice input_output.nts
+./nanotekspice true.nts

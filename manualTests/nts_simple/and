@@ -1,0 +1,21 @@
+#!/bin/bash
+
+clear
+
+echo "##########################"
+echo "            N             "
+echo "##########################" 
+./nanotekspice 4081_and.nts < andin.txt
+echo ""
+
+echo "##########################"
+echo "            S             "
+echo "##########################" 
+./nanotekspice 4081_andS.nts < andinS.txt
+echo ""
+
+echo "##########################"
+echo "            U             "
+echo "##########################" 
+./nanotekspice 4081_andU.nts < andinU.txt
+echo ""

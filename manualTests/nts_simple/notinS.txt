@@ -1,0 +1,7 @@
+display
+in_01=0
+in_03=1
+in_05=U
+simulate
+display
+exit

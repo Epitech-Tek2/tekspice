@@ -1,0 +1,65 @@
+#!/bin/bash
+
+g++ aon.cpp
+./a.out
+clear
+
+echo "##########################"
+echo "            1             "
+echo "##########################" 
+./nanotekspice and-or-not.nts < aon1.txt
+echo ""
+
+echo "##########################"
+echo "            2             "
+echo "##########################" 
+./nanotekspice and-or-not.nts < aon2.txt
+echo ""
+
+echo "##########################"
+echo "            3             "
+echo "##########################" 
+./nanotekspice and-or-not.nts < aon3.txt
+echo ""
+
+echo "##########################"
+echo "            4             "
+echo "##########################" 
+./nanotekspice and-or-not.nts < aon4.txt
+echo ""
+
+echo "##########################"
+echo "            5             "
+echo "##########################" 
+./nanotekspice and-or-not.nts < aon5.txt
+echo ""
+
+echo "##########################"
+echo "            6             "
+echo "##########################" 
+./nanotekspice and-or-not.nts < aon6.txt
+echo ""
+
+echo "##########################"
+echo "            7             "
+echo "##########################" 
+./nanotekspice and-or-not.nts < aon7.txt
+echo ""
+
+echo "##########################"
+echo "            8             "
+echo "##########################" 
+./nanotekspice and-or-not.nts < aon8.txt
+echo ""
+
+echo "##########################"
+echo "            9             "
+echo "##########################" 
+./nanotekspice and-or-not.nts < aon9.txt
+echo ""
+
+echo "##########################"
+echo "           10             "
+echo "##########################" 
+./nanotekspice and-or-not.nts < aon10.txt
+echo ""

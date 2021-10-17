@@ -1,0 +1,29 @@
+#!/bin/bash
+
+clear
+
+echo "##########################"
+echo "           SS1            "
+echo "##########################"
+./nanotekspice or_gate.nts < ss1in.txt
+echo $?
+echo " - - - - - Mouli - - - - -"
+cat ss1out.txt
+echo ""
+
+echo "##########################"
+echo "           SS2            "
+echo "##########################"
+./nanotekspice bad.nts
+echo $?
+echo " - - - - - Mouli - - - - -"
+cat ss2out.txt
+echo ""
+
+echo "##########################"
+echo "           SS3            "
+echo "##########################"
+./nanotekspice clock.nts < ss3in.txt
+echo $?
+echo " - - - - - Mouli - - - - -"
+cat ss3out.txt

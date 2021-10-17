@@ -1,0 +1,7 @@
+display
+in_a=1
+in_b=U
+in_c=1
+simulate
+display
+exit

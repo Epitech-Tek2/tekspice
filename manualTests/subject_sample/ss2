@@ -1,0 +1,6 @@
+#!/bin/bash
+
+clear
+./nanotekspice bad.nts
+echo $?
+cat ss2out.txt

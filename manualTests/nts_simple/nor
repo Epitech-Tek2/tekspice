@@ -1,0 +1,21 @@
+#!/bin/bash
+
+clear
+
+echo "##########################"
+echo "            N             "
+echo "##########################" 
+./nanotekspice 4001_nor.nts < norin.txt
+echo ""
+
+echo "##########################"
+echo "            S             "
+echo "##########################" 
+./nanotekspice 4001_norS.nts < norinS.txt
+echo ""
+
+echo "##########################"
+echo "            U             "
+echo "##########################" 
+./nanotekspice 4001_norU.nts < norinU.txt
+echo ""

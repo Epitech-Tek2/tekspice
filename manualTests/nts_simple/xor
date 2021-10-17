@@ -1,0 +1,21 @@
+#!/bin/bash
+
+clear
+
+echo "##########################"
+echo "            N             "
+echo "##########################" 
+./nanotekspice 4030_xor.nts < xorin.txt
+echo ""
+
+echo "##########################"
+echo "            S             "
+echo "##########################" 
+./nanotekspice 4030_xorS.nts < xorinS.txt
+echo ""
+
+echo "##########################"
+echo "            U             "
+echo "##########################" 
+./nanotekspice 4030_xorU.nts < xorinU.txt
+echo ""
